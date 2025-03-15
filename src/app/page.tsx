@@ -12,6 +12,8 @@ import CreatePost from "@/components/CreatePost";
 import { currentUser } from "@clerk/nextjs/server";
 import { getPosts } from "@/actions/post.action";
 import { getDbUserId } from "@/actions/user.action";
+import WhoToFollow from "@/components/WhoToFollow";
+import PostCard from "@/components/PostCard";
 
 
 export default async function Home() {
